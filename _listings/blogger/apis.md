@@ -27,7 +27,7 @@ apis:
   tags: Blog
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/blogs-blogid-posts-postid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/blogs-blogid-posts-postid-publish-post.md
 x-common:
 - type: x-blog
   url: https://blogger.googleblog.com/

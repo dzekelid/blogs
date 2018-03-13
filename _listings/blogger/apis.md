@@ -13,8 +13,8 @@ tags:
 - Content
 - CMS
 - Blog
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Blog
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/users-userid-blogs-blogid-posts-postid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/blogs-byurl-get.md
 x-common:
 - type: x-blog
   url: https://blogger.googleblog.com/

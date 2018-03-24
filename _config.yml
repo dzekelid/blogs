@@ -1,10 +1,10 @@
-title: Streamdata Gallery Blog
-url: blog.streamdata.gallery
-tag: Blog
+title: Streamdata Gallery Blogs
+url: blogs.streamdata.gallery
+tag: Blogs
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: blog
+github_repo: blogs
 github_branch: master
 collections:
   listings:

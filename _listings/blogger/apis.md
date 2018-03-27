@@ -13,9 +13,9 @@ tags:
 - Content
 - CMS
 - Blog
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/blogger/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Blogger API
@@ -24,10 +24,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
   humanURL: ""
   baseURL: ://www.googleapis.com//blogger/v3
-  tags: Blog
+  tags: Blogs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/blog/master/_listings/blogger/users-userid-blogs-blogid-posts-postid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/blogger/users-userid-blogs-blogid-get.md
 x-common:
 - type: x-blog
   url: https://blogger.googleblog.com/

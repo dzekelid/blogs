@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Blogger
-  description: API for access to the data within Blogger.
+  title: Blogger API Get User Blog
+  description: Gets one blog and user info pair by blogId and userId.
   contact:
     name: Google
     url: https://google.com

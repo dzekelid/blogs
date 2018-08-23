@@ -11,43 +11,61 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Blogs
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr Blogs Get List
+- name: Flickr
   x-api-slug: flickr
-  description: Get a list of configured blogs for the calling user.
+  description: explore-upload-and-organize-photos-on-flickr
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.blogs.getList
-  tags: Blogs,GetList
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-openapi.md
-- name: Flickr Blogs Get Services
+- name: Flickr
   x-api-slug: flickr
-  description: Returns a list of Flickr supported blogging services.
+  description: explore-upload-and-organize-photos-on-flickr
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.blogs.getServices
-  tags: Blogs,GetServices
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getservices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getservices-get-openapi.md
-- name: Flickr Blogs Add Photo
+- name: Flickr
   x-api-slug: flickr
-  description: Posts a photo to a blog.
+  description: explore-upload-and-organize-photos-on-flickr
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.blogs.postPhoto
-  tags: Blogs,PostPhoto
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getlist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-getservices-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/restmethodflickr-blogs-postphoto-get-postman.md
   - type: x-openapi-spec
@@ -66,6 +84,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base

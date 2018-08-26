@@ -6,21 +6,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Blogs
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/pcmag/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PCMag
-  x-api-slug: pcmag
-  description: ""
-  image: ""
-  humanURL: http://www.pcmag.com/
-  baseURL: https:///
-  tags: Blogs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/pcmag/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://feeds.pcmag.com/Rss.aspx/SectionArticles?sectionId=28164

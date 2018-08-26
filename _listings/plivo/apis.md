@@ -7,99 +7,53 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo
 x-kinRank: "8"
 x-alexaRank: "130970"
 tags: Blogs
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Post Blogs
+  x-api-slug: blogs-post
+  description: Creates a new Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Put Blogs
+  x-api-slug: blogsid-put
+  description: Updates the Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsid-put-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: this-is-the-api-for-managing-codenvy-account-
+- name: Codenvy Account API - Post Blogs Comments
+  x-api-slug: blogsidcomments-post
+  description: Creates a comment for the Story.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
   humanURL: http:///account
   baseURL: :///account/https://codenvy.com/api
   tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
     Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
-    StreamRank
+    Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogs-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsid-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsidcomments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/blogsidcomments-post-openapi.md
-- name: Codenvy Account API
-  x-api-slug: codenvy-account-api
-  description: 'Voice & SMS API Platform: Plivo enables businesses and developers
-    to tap into powerful Voice and SMS capabilities without carrier lock-in.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: :///account/https://codenvy.com/api
-  tags: Blogs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/openapi.md
-- name: Plivo SMS
-  x-api-slug: plivo-sms
-  description: Plivo provides web developers with basic building blocks in the form
-    of Plivo XML and HTTP API, to create telephony apps, so developers can completely
-    do away with learning the nitty-gritty of the telephony plumbing.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: https://api.plivo.com/v1/
-  tags: Blogs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/openapi.md
-- name: Plivo Voice
-  x-api-slug: plivo-voice
-  description: 'Voice & SMS API Platform: Plivo enables businesses and developers
-    to tap into powerful Voice and SMS capabilities without carrier lock-in.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
-  humanURL: http:///account
-  baseURL: https:///
-  tags: Blogs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/openapi.md
 x-common:
 - type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/

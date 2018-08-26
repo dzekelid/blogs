@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Blogs
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/it-security-guru/apis.md
 specificationVersion: "0.14"
-apis:
-- name: IT Security Guru
-  x-api-slug: it-security-guru
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/itsecurityguru.jpg
-  humanURL: http://www.itsecurityguru.org/
-  baseURL: https:///
-  tags: Blogs
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/it-security-guru/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://www.itsecurityguru.org/feed/

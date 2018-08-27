@@ -1,53 +1,204 @@
 {
-	"name": "Lawfare",
-	"x-slug": "lawfare",
-	"description": "",
-	"image": "",
-	"x-kinRank": "7",
-	"x-alexaRank": "0",
-	"tags": "Blogs",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/blogs\/master\/_listings\/lawfare\/apis.md",
+	"name": "Streadata.io API Gallery - Blogs",
+	"description": "This is a repository of blogs APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/blogs.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://blogs.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Medium",
+			"x-api-slug": "medium",
+			"description": "Medium is an online publishing platform founded by Twitter co-founder Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional contributions and professional, paid contributions, an example of social journalism.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
+			"humanURL": "https://medium.com/",
+			"baseURL": "https://api.medium.com//v1",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/medium/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Popular Science",
+			"x-api-slug": "popular-science",
+			"description": "",
+			"image": "",
+			"humanURL": "",
+			"baseURL": "https:///",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/popular-science/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IT Security Guru",
+			"x-api-slug": "it-security-guru",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/itsecurityguru.jpg",
+			"humanURL": "http://www.itsecurityguru.org/",
+			"baseURL": "https:///",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/it-security-guru/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PCMag",
+			"x-api-slug": "pcmag",
+			"description": "",
+			"image": "",
+			"humanURL": "http://www.pcmag.com/",
+			"baseURL": "https:///",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/pcmag/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Motherboard",
+			"x-api-slug": "motherboard",
+			"description": "",
+			"image": "",
+			"humanURL": "https://motherboard.vice.com",
+			"baseURL": "https:///",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/motherboard/openapi.md"
+				}
+			]
+		},
 		{
 			"name": "Lawfare",
 			"x-api-slug": "lawfare",
 			"description": "",
 			"image": "",
-			"humanURL": "https:\/\/www.lawfareblog.com\/",
-			"baseURL": "https:\/\/\/",
+			"humanURL": "https://www.lawfareblog.com/",
+			"baseURL": "https:///",
 			"tags": "Blogs",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/blogs\/master\/_listings\/lawfare\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/lawfare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blogger",
+			"x-api-slug": "blogger",
+			"description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries. It was developed by Pyra Labs, which was bought by Google in 2003. Generally, the blogs are hosted by Google at a subdomain of blogspot.com. Blogs can also be hosted in the registered custom domain of the blogger (like www.example.com).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png",
+			"humanURL": "https://www.blogger.com",
+			"baseURL": "://www.googleapis.com//blogger/v3",
+			"tags": "Blogs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/blogger/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-blog-rss",
-			"url": "https:\/\/www.lawfareblog.com\/rss.xml"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/lawfareblog"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/www.lawfareblog.com\/"
-		}
-	],
+	"tags": "Blogs",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Medium",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/medium/apis.yaml"
+		},
+		{
+			"name": "Popular Science",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/popular-science/apis.yaml"
+		},
+		{
+			"name": "IT Security Guru",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/it-security-guru/apis.yaml"
+		},
+		{
+			"name": "PCMag",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/pcmag/apis.yaml"
+		},
+		{
+			"name": "Motherboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/motherboard/apis.yaml"
+		},
+		{
+			"name": "Lawfare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/lawfare/apis.yaml"
+		},
+		{
+			"name": "Blogger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/blogs/master/_listings/blogger/apis.yaml"
 		}
 	]
 }
